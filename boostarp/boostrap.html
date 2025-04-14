@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <style>
+    @media (max-width: 576px) {
+      .hero-text {
+        font-size: 1.8rem;
+      }
+      .lead {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">MyPortfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="bg-light text-center py-5">
+  <div class="container">
+    <h1 class="hero-text display-4">Hi, I'm Fauzia Mohamed</h1>
+    <p class="lead">A Web Developer passionate about building responsive websites.</p>
+    <a href="#projects" class="btn btn-primary">View My Work</a>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">About Me</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <p>Hello! I'm Fauzia, a frontend developer who loves crafting beautiful and functional web interfaces using HTML, CSS, JavaScript, and Bootstrap. I focus on creating user-friendly experiences and clean, maintainable code.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">My Projects</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://via.placeholder.com/400x200" class="card-img-top img-fluid" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Portfolio Website</h5>
+            <p class="card-text">A personal portfolio built with Bootstrap showcasing my work and skills.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://via.placeholder.com/400x200" class="card-img-top img-fluid" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Blog Template</h5>
+            <p class="card-text">A responsive blog layout with cards, sidebar and Bootstrap components.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://via.placeholder.com/400x200" class="card-img-top img-fluid" alt="Project 3">
+          <div class="card-body">
+            <h5 class="card-title">E-commerce UI</h5>
+            <p class="card-text">An online store UI mockup made using Bootstrap's grid and components.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Contact Me</h2>
+    <form class="row g-3 justify-content-center">
+      <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="Your Name" required>
+      </div>
+      <div class="col-md-6">
+        <input type="email" class="form-control" placeholder="Your Email" required>
+      </div>
+      <div class="col-12">
+        <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+      </div>
+      <div class="col-12 text-center">
+        <button type="submit" class="btn btn-success">Send Message</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  <p class="mb-0">&copy; 2025 Jane Doe. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
